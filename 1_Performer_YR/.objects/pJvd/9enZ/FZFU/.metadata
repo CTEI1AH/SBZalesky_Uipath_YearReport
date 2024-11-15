@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge ACME System 1 - Upload Yearly Report",
+  "Type": "Screen",
+  "Id": "FZFUib0cRUq4w5Tcf2kJTA",
+  "Reference": "MMI5lmJqK0CXqDo00YEWTw/FZFUib0cRUq4w5Tcf2kJTA",
+  "ParentRef": "MMI5lmJqK0CXqDo00YEWTw/9enZgbwBJUyll53_nnCkzA",
+  "Created": "2024-11-15T08:18:15.495961Z",
+  "Updated": "2024-11-15T08:18:15.495961Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
