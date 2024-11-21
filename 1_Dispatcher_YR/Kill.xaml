@@ -73,13 +73,13 @@
       <AssemblyReference>UiPath.Platform</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Kill" sap:VirtualizedContainerService.HintSize="571.9999999999999,777.3333333333334" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Kill" sap:VirtualizedContainerService.HintSize="629.9999999999999,768" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: Windows PowerShell" sap:VirtualizedContainerService.HintSize="450,754.6666666666666" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="8b9bf6e1-a67c-45e6-9d86-2a16f566dcf1" Version="V2">
+    <uix:NApplicationCard sap2010:Annotation.AnnotationText="Переделать консоль" AttachMode="ByInstance" DisplayName="Use Application: Windows PowerShell" sap:VirtualizedContainerService.HintSize="450,745.3333333333334" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="8b9bf6e1-a67c-45e6-9d86-2a16f566dcf1" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
@@ -121,6 +121,13 @@
       <uix:NApplicationCard.TargetApp>
         <uix:TargetApp Area="237, 585, 1368, 776" FilePath="C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAQjSURBVFhH7ZZZT1NREMf5CHwUHkw0PrCDskmVYPRNTcBEBYoioIgWrKzWLSbqE4iiCSEKJiaIEMBdRJCiggsUZassVgTZdZw5S++9PZdFn/knk1to7/nNmTPzv9dvXesyU2BK056wzA6IOuXyiT7YiiGva46T+msvXnshOn8A4grGLAJpVGhGmyfh4h+QsePCEuw4vwDbHXNgOTsDltJpiC/5CduKf0Bc0QQtBLFnvkGMfQRiTg+xxaNsX1jSBNuS+wm2nPgAkTndEHHsHURkd+HnHogrHLcJpCbcfQDdqMDPzUF6BSagg28r+k6LIHwUYu1uhA9zeN4y8OMcHp7Vyf7G+60Cq4nKTwuzBC789sL7Rv8AqbFrwQgv0MMHITrvK+6+3xx+jMP58fbhOp4AgdWECZQRlMMXET4PFscMg0s1OudXhtN5535G+EdTeNjR1+yoBNIo/NKlh293zOK5/4J7bQsCz9XgnMXSLwM/KeE9EHn8PcLfQni2E8Iz3yC8HUIzXlEFmwRSU2Bqsz9l7AuPL52C+OJJLP+8wHOVVlPDmcBzTeBZEt7GqoBrqg0YlNpiodIo8JJJzNiDZZ9gO9frXM3EP8FDj7SyvsBmVkcwKO2xDRtDheP/CC7HraHT2BOOu2Oi6RB+wgSeqcFDDr9gVcNx9hdYTSFHXjbJWV8OLmfd2T8n8Fxn77i1jke4HDcGP6rBg9OfUQO7BNIoynitRpNYNAC9I8aeSDpPO9dmXXZ8aIYGpyuOdZlAagpJfx5A57i60Qx6jaa+Y0qgua5Ut5nAXwFWFnB9CLY+YUeCY64aEGZmpV0qcJNZP3h1WNn9z+k5iEq7bQ4/TPCngD3GmhWnTDUgPKMyBl4F7qgZh+nZ3wLL1djaC4HJN7HET1eE45SxfhJIo7B0LgWuM5rE4kF41m3sftp1UVkLbEy6oxiNF45JSTi6LJ2/akA4Iv5knXLWOZw3HcEPXXOD27MosFzdrlFIzKqCIOtj01n3wvF7CafE8BmjGhCWzELlVcYtfwgqmycFUtON+x2wYe8tCEOoOZx3PDWdhFPQiGICqgHhudkIqofvLBlRZp1Kvi+/FjYfqGOzvv/iJ6h46Ibr9SMYw1D+YAhjEMrrBsB6uQtL/wjBzd4EYuzDlIBqQBHZzibfWffdOWu0/ZXsbKXRrKaEHA6Wgc8TcwMiB9PDyWiu1X0XywBvtOQa4XKa0UzNLIlfmCvGWuWFUyPi7lUDwjNkBmRmNCmX2iEuoxYCrY84XPdGQ+O2294ByYUPMep5FDxgkVRQB7tyamFTMt4rEqDfYwJ7BFYTltManTdgmHX5dFvpjWalWZdQfYjXPNWAcGEbldwXrr7R4NPtP+EU+GDzCKRRCLAQjDJcPjChNQb91vd+MjfT8q9rXX5+fn8BOkgnRRaUGXUAAAAASUVORK5CYII=" InformativeScreenshot="d40e1d31879cd9310daf79658f019df0.png" Selector="&lt;wnd app='powershell.exe' cls='ConsoleWindowClass' title='Windows PowerShell' /&gt;" Title="Windows PowerShell" />
       </uix:NApplicationCard.TargetApp>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
     </uix:NApplicationCard>
   </Sequence>
 </Activity>

@@ -1,1 +1,0 @@
-# SBZalesky_Uipath_YearReport

@@ -108,14 +108,10 @@
       <AssemblyReference>System.IO.FileSystem.DriveInfo</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="System1_MergeReportsToYear" sap:VirtualizedContainerService.HintSize="626.6666666666666,1226" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="System1_MergeReportsToYear" sap:VirtualizedContainerService.HintSize="629.9999999999999,1226" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="dt_Reports" />
-      <Variable x:TypeArguments="x:String" Name="ReportFolderPath">
-        <Variable.Default>
-          <Literal x:TypeArguments="x:String">C:\Users\SBZalesky\Documents\UiPath\1_Performer_YR\Data\Report\RO254678</Literal>
-        </Variable.Default>
-      </Variable>
+      <Variable x:TypeArguments="x:String" Default="C:\Users\SBZalesky\Documents\UiPath\1_Performer_YR\Data\Report\RO254678" Name="ReportFolderPath" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -135,7 +131,7 @@
         <OutArgument x:TypeArguments="x:String">[ReportFolderPath]</OutArgument>
       </Assign.To>
       <Assign.Value>
-        <InArgument x:TypeArguments="x:String">[in_FolderPath+in_TaxID]</InArgument>
+        <InArgument x:TypeArguments="x:String">[Path.Combine(in_FolderPath, in_TaxID)]</InArgument>
       </Assign.Value>
     </Assign>
     <ui:ForEachFileX DisplayName="For Each File In Folder" Folder="[ReportFolderPath]" sap:VirtualizedContainerService.HintSize="502,712.6666666666666" sap2010:WorkflowViewState.IdRef="ForEachFileX_1" IncludeSubDirectories="False" OrderBy="NameAscFirst" SkipFolderWithoutPermission="False">

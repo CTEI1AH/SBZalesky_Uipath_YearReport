@@ -47,7 +47,10 @@
     {
       "Path": "System1/System1_DownloadMothlyReports.xaml",
       "SortBy": 0,
-      "VariablesSectionElementsOrder": [],
+      "VariablesSectionElementsOrder": [
+        "FolderPath&Sequence_1",
+        "arr_Months&Sequence_1"
+      ],
       "ArgumentsSectionElementsOrder": [
         "in_ReportFolder",
         "in_Year",

@@ -102,8 +102,8 @@
         "tf_PageActive&Sequence_1"
       ],
       "ArgumentsSectionElementsOrder": [
-        "in_TransactionItem",
-        "in_Config"
+        "in_Config",
+        "in_TransactionItem"
       ],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
@@ -158,6 +158,20 @@
         "in_ConfigFile",
         "in_ConfigSheets",
         "out_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/RetryCurrentTransaction.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config",
+        "io_RetryNumber",
+        "io_TransactionNumber",
+        "in_SystemException",
+        "in_QueueRetry"
       ],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
